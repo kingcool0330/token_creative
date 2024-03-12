@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 
 // load the pages
 import Header from "./pages/Header";
+import IntroPage from "./pages/IntroPage";
+import AboutPage from "./pages/AboutPage";
 import LoadingPage from "./pages/LoadingPage";
 
 // load css
@@ -23,85 +25,10 @@ const App = () => {
   return (
     <div className="main">
       <Header />
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
-      <div>Hi</div>
+      <div className="main-background">
+        <IntroPage />
+        <AboutPage />
+      </div>
     </div>
   );
 };
