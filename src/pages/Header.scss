@@ -1,0 +1,149 @@
+.header-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  backdrop-filter: blur(24px);
+
+  @media (max-width: 992px) {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sub-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .logo {
+      .logo-image {
+        width: 110px;
+        height: 40px;
+        color: transparent;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        display: block;
+      }
+    }
+
+    .route-list {
+      display: flex;
+      gap: 1.5rem;
+      margin-left: auto;
+      margin-right: auto;
+
+      @media (max-width: 992px) {
+        display: none;
+      }
+
+      .list-item {
+        color: rgb(255 255 255/1);
+        padding: 0.5rem;
+        border-radius: 0.125rem;
+        cursor: pointer;
+        height: 2.5rem;
+
+        &:hover {
+          color: rgb(255 98 67/1);
+        }
+
+        a {
+          color: inherit;
+          text-decoration: inherit;
+        }
+      }
+    }
+
+    .button-section {
+      display: block;
+
+      @media (max-width: 992px) {
+        display: none;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: inherit;
+
+        .btn {
+          transition-property: all;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-duration: 0.15s;
+          color: rgb(255 255 255/1);
+          box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000,
+            0 25px 50px -12px rgba(0, 0, 0, 0.25);
+          background-color: rgb(255 98 67 / 1);
+          border-radius: 0.5rem;
+          overflow: hidden;
+          width: 8rem;
+          height: 2.5rem;
+          position: relative;
+          cursor: pointer;
+          background-image: none;
+          text-transform: none;
+          outline: none;
+          border: 0px solid #e5e7eb;
+          transition: 0.2s all ease-in-out;
+
+          &:hover {
+            background-color: rgb(255 57 50/1);
+          }
+
+          &::before {
+            transition-duration: 0.3s;
+            content: "";
+            animation-duration: 0.3s;
+            background-color: rgb(255 57 50 / 1);
+          }
+
+          .btn-span {
+            position: relative;
+            z-index: 10;
+            background-color: inherit;
+          }
+        }
+      }
+    }
+
+    .drop-menu {
+      display: none;
+
+      @media (max-width: 992px) {
+        display: block;
+      }
+
+      .drop-btn {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        cursor: pointer;
+        -webkit-appearance: button;
+        background-color: initial;
+        background-image: none;
+        text-transform: none;
+
+        img {
+          color: transparent;
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}

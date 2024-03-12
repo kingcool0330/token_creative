@@ -1,0 +1,44 @@
+@font-face {
+  font-family: tokenFont;
+  src: url("./assets/font/customFont.woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: tokenFont;
+  color: #fff;
+  background-color: rgb(8 8 8/1);
+}
+
+.btn {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0 solid #000;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ff6243;
+  border-right-width: 0;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+  -webkit-box-shadow: none;
+}
