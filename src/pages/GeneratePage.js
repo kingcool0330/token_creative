@@ -1,7 +1,7 @@
 import React from "react";
 
 // load assets
-import LogoUrl from "../assets/image/name-logo.webp";
+import LogoUrl from "../assets/image/name-logo.png";
 import CloudverseUrl from "../assets/image/cloudverse.webp";
 import CloudsecUrl from "../assets/image/cloudsec.webp";
 import CloudnetworkUrl from "../assets/image/cloudnetwork.webp";
@@ -35,7 +35,7 @@ const GeneratePage = () => {
                 decoding="async"
                 src={CloudverseUrl}
               />
-              <p className="product-text">OpSec Cloudverse</p>
+              <p className="product-text">Celtex Cloudverse</p>
             </div>
             <div className="product-item">
               <img
@@ -55,7 +55,7 @@ const GeneratePage = () => {
                 decoding="async"
                 src={CloudnetworkUrl}
               />
-              <p className="product-text">OpSec Network</p>
+              <p className="product-text">Celtex Network</p>
             </div>
           </div>
         </div>

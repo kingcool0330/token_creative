@@ -1,7 +1,7 @@
 import React from "react";
 
 // load assets
-import logoImageUrl from "../assets/image/name-logo.webp";
+import logoImageUrl from "../assets/image/name-logo.png";
 import menuSquareUrl from "../assets/image/menu-square.png";
 import "./Header.scss";
 
@@ -78,7 +78,7 @@ const Header = () => {
             href="https://app.uniswap.org/swap?outputCurrency=0x6a7eff1e2c355ad6eb91bebb5ded49257f3fed98"
           >
             <button className="btn btn-link">
-              <span className="btn-span">$ OPSEC</span>
+              <span className="btn-span">$ CELTEX</span>
             </button>
           </a>
         </div>

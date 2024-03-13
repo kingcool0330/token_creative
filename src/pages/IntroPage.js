@@ -18,11 +18,11 @@ const IntroPage = () => {
       <div className="intro">
         <div className="description">
           <h1 className="first">
-            OpSec Ecosystem is a privacy-focused network dedicated to making
+            Celtex Ecosystem is a privacy-focused network dedicated to making
             operations on the cloud very seamless and efficient.
           </h1>
           <h1 className="second">
-            OpSec decentralized cloud solutions range from high level nodes,
+            Celtex decentralized cloud solutions range from high level nodes,
             light speed router devices, GPUs and hosting services.
           </h1>
         </div>
@@ -32,8 +32,8 @@ const IntroPage = () => {
             Decentralized <br /> Supercomputer Applications
           </h1>
           <h1 className="des-title-second-hidden">
-            OpSec Ecosystem is a privacy-focused network dedicated to making
-            operations on the cloud very seamless and efficient. OpSec
+            Celtex Ecosystem is a privacy-focused network dedicated to making
+            operations on the cloud very seamless and efficient. Celtex
             decentralized cloud solutions range from high level nodes, light
             speed router devices, GPUs and hosting services.
           </h1>
@@ -44,7 +44,7 @@ const IntroPage = () => {
             className="dec-btn"
           >
             <button className="btn docs-btn">
-              <span>START BUILDING</span>
+              <span>COMING SOON</span>
             </button>
           </a>
         </div>
