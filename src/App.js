@@ -5,6 +5,7 @@ import Header from "./pages/Header";
 import IntroPage from "./pages/IntroPage";
 import AboutPage from "./pages/AboutPage";
 import GeneratePage from "./pages/GeneratePage";
+import Footer from "./pages/Footer";
 import LoadingPage from "./pages/LoadingPage";
 
 // load css
@@ -30,6 +31,7 @@ const App = () => {
         <IntroPage />
         <AboutPage />
         <GeneratePage />
+        <Footer />
       </div>
     </div>
   );
