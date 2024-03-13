@@ -5,6 +5,7 @@ import Header from "./pages/Header";
 import IntroPage from "./pages/IntroPage";
 import AboutPage from "./pages/AboutPage";
 import GeneratePage from "./pages/GeneratePage";
+import FaqPage from "./pages/FaqPage";
 import Footer from "./pages/Footer";
 import LoadingPage from "./pages/LoadingPage";
 
@@ -31,6 +32,7 @@ const App = () => {
         <IntroPage />
         <AboutPage />
         <GeneratePage />
+        <FaqPage />
         <Footer />
       </div>
     </div>
