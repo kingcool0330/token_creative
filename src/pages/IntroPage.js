@@ -18,18 +18,19 @@ const IntroPage = () => {
       <div className="intro">
         <div className="description">
           <h1 className="first">
-            Celtex Ecosystem is a privacy-focused network dedicated to making
-            operations on the cloud very seamless and efficient.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt et dolore magna aliqua.
           </h1>
           <h1 className="second">
-            Celtex decentralized cloud solutions range from high level nodes,
-            light speed router devices, GPUs and hosting services.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt et dolore magna aliqua.
           </h1>
         </div>
         <div className="bottom-description">
-          <h1 className="des-title">Pioneering the Next Generation</h1>
+          <h1 className="des-title">Lorem ipsum dolor</h1>
           <h1 className="des-title-second">
-            Decentralized <br /> Supercomputer Applications
+            Lorem ipsum
+            <br /> Lorem ipsum dolor
           </h1>
           <h1 className="des-title-second-hidden">
             Celtex Ecosystem is a privacy-focused network dedicated to making

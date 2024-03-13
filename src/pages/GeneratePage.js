@@ -20,7 +20,7 @@ const GeneratePage = () => {
             src={LogoUrl}
           />
           <h1 className="title">
-            Pioneering the <br /> Next Generation
+            Lorem ipsum <br /> Lorem ipsum dolor
           </h1>
           <div className="flex">
             <h1 className="text">PRODUCTS</h1>

@@ -8,37 +8,37 @@ import "./Header.scss";
 const RouteList = [
   {
     id: 1,
-    name: "Home",
+    name: "Lorem",
     key: "home",
   },
   {
     id: 2,
-    name: "About",
+    name: "Lorem",
     key: "about",
   },
   {
     id: 3,
-    name: "Roadmap",
+    name: "Lorem",
     key: "roadmap",
   },
   {
     id: 4,
-    name: "Documentation",
+    name: "Lorem",
     key: "documentation",
   },
   {
     id: 5,
-    name: "FAQ",
+    name: "Lorem",
     key: "faq",
   },
   {
     id: 6,
-    name: "Cloudverse",
+    name: "Lorem",
     key: "cloudverse",
   },
   {
     id: 7,
-    name: "Cloudsec",
+    name: "Lorem",
     key: "cloudsec",
   },
 ];
@@ -78,7 +78,7 @@ const Header = () => {
             href="https://app.uniswap.org/swap?outputCurrency=0x6a7eff1e2c355ad6eb91bebb5ded49257f3fed98"
           >
             <button className="btn btn-link">
-              <span className="btn-span">$ CELTEX</span>
+              <span className="btn-span">BUY CELTEX</span>
             </button>
           </a>
         </div>
