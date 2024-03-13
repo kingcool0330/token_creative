@@ -1,6 +1,8 @@
 import React from "react";
 
 // load assets
+import ProductRightUrl from "../assets/image/bg-products-right.webp";
+import ProductLeftUrl from "../assets/image/bg-products-left.webp";
 import "./AboutPage.scss";
 
 const walletList = [
@@ -102,6 +104,20 @@ const AboutPage = () => {
           })}
         </div>
       </div>
+      <img
+        className="about-right-img"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        src={ProductRightUrl}
+      />
+      <img
+        className="about-left-img"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        src={ProductLeftUrl}
+      />
     </div>
   );
 };

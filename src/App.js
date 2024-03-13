@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./pages/Header";
 import IntroPage from "./pages/IntroPage";
 import AboutPage from "./pages/AboutPage";
+import GeneratePage from "./pages/GeneratePage";
 import LoadingPage from "./pages/LoadingPage";
 
 // load css
@@ -28,6 +29,7 @@ const App = () => {
       <div className="main-background">
         <IntroPage />
         <AboutPage />
+        <GeneratePage />
       </div>
     </div>
   );
