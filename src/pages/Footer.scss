@@ -63,7 +63,7 @@
             text-decoration: inherit;
 
             &:hover {
-              color: rgb(255 98 67/1);
+              color: var(--default-hover-color);
             }
           }
         }
@@ -93,7 +93,7 @@
             text-decoration: inherit;
 
             &:hover {
-              color: rgb(255 98 67/1);
+              color: var(--default-hover-color);
             }
           }
         }

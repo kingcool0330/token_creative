@@ -71,7 +71,7 @@
       flex-direction: column;
 
       .stickLine {
-        background-color: rgb(255, 98, 67);
+        background-color: var(--default-color);
         width: 2px;
         height: 100%;
         position: absolute;

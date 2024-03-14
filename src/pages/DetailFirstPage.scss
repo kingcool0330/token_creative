@@ -106,7 +106,7 @@
           width: 8rem;
           overflow: hidden;
           border-radius: 0.125rem;
-          background-color: rgb(255 98 67/1);
+          background-color: var(--default-hover-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.5rem;
@@ -120,8 +120,8 @@
           &:hover {
             background-image: linear-gradient(
               to top,
-              rgb(255 57 50/1),
-              rgb(255 57 50/1)
+              var(--default-hover-color),
+              var(--default-hover-color)
             );
           }
         }

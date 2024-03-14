@@ -11,8 +11,8 @@
   .mark {
     width: 25px;
     height: 25px;
-    border: 1px solid rgb(255, 98, 67);
-    background-color: rgb(255, 98, 67);
+    border: 1px solid var(--default-color);
+    background-color: var(--default-color);
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
         font-size: 1.25rem;
         line-height: 2rem;
         text-transform: uppercase;
-        color: rgb(255, 98, 67);
+        color: var(--default-color);
       }
 
       .text {
@@ -74,8 +74,8 @@
   .mark {
     width: 25px;
     height: 25px;
-    border: 1px solid rgb(255, 98, 67);
-    background-color: rgb(255, 98, 67);
+    border: 1px solid var(--default-color);
+    background-color: var(--default-color);
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@
         font-size: 1.25rem;
         line-height: 2rem;
         text-transform: uppercase;
-        color: rgb(255, 98, 67);
+        color: var(--default-color);
       }
 
       .text {

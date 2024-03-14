@@ -58,7 +58,7 @@
         .text {
           font-size: inherit;
           font-weight: inherit;
-          color: rgb(255, 98, 67);
+          color: var(--default-color);
         }
 
         .line {
@@ -67,7 +67,7 @@
           width: 50%;
           border-top-style: solid;
           border-top-width: 2px;
-          border-color: rgb(255, 98, 67);
+          border-color: var(--default-color);
         }
       }
     }

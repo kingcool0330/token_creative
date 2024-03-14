@@ -62,7 +62,7 @@
         height: 2.5rem;
 
         &:hover {
-          color: rgb(255 98 67/1);
+          color: var(--default-hover-color);
         }
 
         a {
@@ -92,7 +92,7 @@
           color: rgb(255 255 255/1);
           box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000,
             0 25px 50px -12px rgba(0, 0, 0, 0.25);
-          background-color: rgb(255 98 67 / 1);
+          background-color: var(--default-color);
           border-radius: 0.5rem;
           overflow: hidden;
           width: 8rem;
@@ -106,14 +106,14 @@
           transition: 0.2s all ease-in-out;
 
           &:hover {
-            background-color: rgb(255 57 50/1);
+            background-color: var(--default-hover-color);
           }
 
           &::before {
             transition-duration: 0.3s;
             content: "";
             animation-duration: 0.3s;
-            background-color: rgb(255 57 50 / 1);
+            background-color: var(--default-hover-color);
           }
 
           .btn-span {
