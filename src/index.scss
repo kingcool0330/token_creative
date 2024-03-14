@@ -17,10 +17,11 @@
 :root {
   --default-color: rgb(118 66 218);
   --default-hover-color: rgb(80 110 155);
+  --default-background-color: rgb(8 8 8);
 }
 
 body {
-  background-color: rgb(8 8 8/1);
+  background-color: var(--default-background-color);
   overflow-y: auto;
   overflow-x: hidden;
 }

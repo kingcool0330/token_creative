@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // load assets
 import logoImageUrl from "../assets/image/name-logo.png";
@@ -44,6 +44,12 @@ const RouteList = [
 ];
 
 const Header = () => {
+  const [menuFlag, setMenuFlag] = useState(false);
+
+  const handleShowMenu = () => {
+    setMenuFlag(!menuFlag);
+  };
+
   return (
     <div className="header-section">
       <div className="sub-section">
@@ -56,6 +62,7 @@ const Header = () => {
             src={logoImageUrl}
           />
         </div>
+
         <div className="route-list">
           {RouteList?.map((item, key) => {
             return (
@@ -71,6 +78,37 @@ const Header = () => {
             );
           })}
         </div>
+
+        {menuFlag && (
+          <div className="route-list-mobile">
+            {RouteList?.map((item, key) => {
+              return (
+                <div className="list-item" key={key}>
+                  <a
+                    href={"#" + item.key}
+                    target="_self"
+                    rel="noopener noreferrer"
+                  >
+                    {item.name}
+                  </a>
+                </div>
+              );
+            })}
+
+            <div className="button-section">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://app.uniswap.org/swap?outputCurrency=0x6a7eff1e2c355ad6eb91bebb5ded49257f3fed98"
+              >
+                <button className="btn btn-link">
+                  <span className="btn-span">BUY CELTEX</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        )}
+
         <div className="button-section">
           <a
             target="_blank"
@@ -83,7 +121,7 @@ const Header = () => {
           </a>
         </div>
         <div className="drop-menu">
-          <button className="btn drop-btn">
+          <button className="btn drop-btn" onClick={handleShowMenu}>
             <img
               alt="menu"
               loading="lazy"
