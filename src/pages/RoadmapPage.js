@@ -4,7 +4,7 @@ import RoadMapItem from "../components/RoadMapItem";
 // load assets
 import "./RoadmapPage.scss";
 
-const tempList = ["0", "1", "2", "3", "0", "1", "2", "3", "0", "1", "2", "3"];
+const tempList = ["0", "1", "2", "3", "0", "1", "2", "3", "0"];
 
 const RoadmapPage = () => {
   return (

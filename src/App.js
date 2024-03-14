@@ -36,11 +36,11 @@ const App = () => {
       <Header />
       <div className="main-background">
         <IntroPage />
-        <AboutPage />
         <GeneratePage />
         <DetailFirstPage />
         <DetailSecondPage />
         <DetailThirdPage />
+        <AboutPage />
         <TokenomicsPage />
         <FaqPage />
         <RoadmapPage />
