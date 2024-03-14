@@ -36,7 +36,6 @@ const FaqPage = () => {
       return filterItem.id !== item.id;
     });
     if (item.flag === 1) {
-      console.log("hi");
       tempFaqFlags.push({
         id: item.id,
         flag: 2,
@@ -45,6 +44,7 @@ const FaqPage = () => {
         return a.id - b.id;
       });
       setFaqFlags(tempFaqFlags);
+
       setTimeout(() => {
         const tempFaqFlags = faqFlags.filter((filterItem) => {
           return filterItem.id !== item.id;
@@ -57,7 +57,7 @@ const FaqPage = () => {
           return a.id - b.id;
         });
         setFaqFlags(tempFaqFlags);
-      }, 200);
+      }, 100);
     } else {
       tempFaqFlags.push({
         id: item.id,
