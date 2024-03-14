@@ -1,0 +1,64 @@
+.roadmap-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .sub-section {
+    margin-top: 4rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      position: relative;
+
+      h2 {
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        text-align: center;
+        line-height: 1;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        position: relative;
+        z-index: 2;
+      }
+
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #141616;
+        font-size: 8rem;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        text-transform: uppercase;
+      }
+    }
+
+    .content {
+      width: 100%;
+      padding: 2rem 0;
+      margin: 2rem 0;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      .stickLine {
+        background-color: rgb(255, 98, 67);
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
