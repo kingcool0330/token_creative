@@ -21,7 +21,6 @@
     margin: 5rem;
 
     @media (max-width: 768px) {
-      background-image: url(../assets/image/mobile-footer.png);
       margin: 5rem 0;
     }
 
@@ -103,8 +102,12 @@
         position: absolute;
         z-index: 10;
         padding-top: 2rem;
-        bottom: 2.5rem;
+        bottom: 1rem;
         right: 5rem;
+
+        span {
+          color: var(--default-color);
+        }
 
         @media (max-width: 768px) {
           right: 50%;

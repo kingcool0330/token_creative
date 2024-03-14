@@ -60,7 +60,8 @@ const Footer = () => {
             </div>
           </div>
           <span className="copyright">
-            ©{new Date().getFullYear()} Celtex - All Rights Reserved
+            <span>©{new Date().getFullYear()}</span> Celtex - All Rights
+            Reserved
           </span>
         </div>
       </div>
