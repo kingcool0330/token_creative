@@ -10,6 +10,7 @@ import DetailSecondPage from "./pages/DetailSecondPage";
 import DetailThirdPage from "./pages/DetailThirdPage";
 import TokenomicsPage from "./pages/TokenomicsPage";
 import FaqPage from "./pages/FaqPage";
+import ContactPage from "./pages/ContactPage";
 import Footer from "./pages/Footer";
 import LoadingPage from "./pages/LoadingPage";
 
@@ -41,6 +42,7 @@ const App = () => {
         <DetailThirdPage />
         <TokenomicsPage />
         <FaqPage />
+        <ContactPage />
         <Footer />
       </div>
     </div>
