@@ -95,7 +95,7 @@ const FaqPage = () => {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className={item.flag === 1 && "rotate"}
+                      className={item.flag === 1 ? "rotate" : ""}
                     >
                       <path d="m6 9 6 6 6-6"></path>
                     </svg>

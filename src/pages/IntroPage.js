@@ -2,6 +2,7 @@ import React from "react";
 
 // load assets
 import introVideoUrl from "../assets/video/bg-hero.mp4";
+import MagnicficCanvas from "../components/MagnicficCanvas";
 import "./IntroPage.scss";
 
 const IntroPage = () => {
@@ -15,6 +16,9 @@ const IntroPage = () => {
         muted
         playsInline
       ></video>
+      <div className="canvas-section">
+        <MagnicficCanvas />
+      </div>
     </div>
   );
 };

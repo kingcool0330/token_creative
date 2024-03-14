@@ -19,9 +19,9 @@ const TokenomicsPage = () => {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <div class="flex">
-            <h1 class="text">Key Features</h1>
-            <div class="line"></div>
+          <div className="flex">
+            <h1 className="text">Key Features</h1>
+            <div className="line"></div>
           </div>
         </div>
         <div className="content">

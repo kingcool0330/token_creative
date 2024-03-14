@@ -66,7 +66,7 @@ const ContactPage = () => {
                 rows="6"
                 name="message"
                 placeholder="Your Message"
-                requiredfdsa
+                required
               ></textarea>
             </div>
             <div className="form-field">
