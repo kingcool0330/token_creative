@@ -7,27 +7,27 @@ const FaqPage = () => {
   const [faqFlags, setFaqFlags] = useState([
     {
       id: 1,
-      flag: false,
+      flag: 0,
     },
     {
       id: 2,
-      flag: false,
+      flag: 0,
     },
     {
       id: 3,
-      flag: false,
+      flag: 0,
     },
     {
       id: 4,
-      flag: false,
+      flag: 0,
     },
     {
       id: 5,
-      flag: false,
+      flag: 0,
     },
     {
       id: 6,
-      flag: false,
+      flag: 0,
     },
   ]);
 
@@ -35,15 +35,39 @@ const FaqPage = () => {
     const tempFaqFlags = faqFlags.filter((filterItem) => {
       return filterItem.id !== item.id;
     });
-    tempFaqFlags.push({
-      id: item.id,
-      flag: !item.flag,
-    });
-    tempFaqFlags.sort((a, b) => {
-      return a.id - b.id;
-    });
-    console.log(tempFaqFlags, "--temfaqflags ---", faqFlags);
-    setFaqFlags(tempFaqFlags);
+    if (item.flag === 1) {
+      console.log("hi");
+      tempFaqFlags.push({
+        id: item.id,
+        flag: 2,
+      });
+      tempFaqFlags.sort((a, b) => {
+        return a.id - b.id;
+      });
+      setFaqFlags(tempFaqFlags);
+      setTimeout(() => {
+        const tempFaqFlags = faqFlags.filter((filterItem) => {
+          return filterItem.id !== item.id;
+        });
+        tempFaqFlags.push({
+          id: item.id,
+          flag: 0,
+        });
+        tempFaqFlags.sort((a, b) => {
+          return a.id - b.id;
+        });
+        setFaqFlags(tempFaqFlags);
+      }, 200);
+    } else {
+      tempFaqFlags.push({
+        id: item.id,
+        flag: 1,
+      });
+      tempFaqFlags.sort((a, b) => {
+        return a.id - b.id;
+      });
+      setFaqFlags(tempFaqFlags);
+    }
   };
 
   return (
@@ -71,14 +95,20 @@ const FaqPage = () => {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className={item.flag && "rotate"}
+                      className={item.flag === 1 && "rotate"}
                     >
                       <path d="m6 9 6 6 6-6"></path>
                     </svg>
                   </button>
                 </h3>
                 <div
-                  className={item.flag ? "description" : "description hidden"}
+                  className={
+                    item.flag === 1
+                      ? "description"
+                      : item.flag === 2
+                      ? "description hiddenbefore"
+                      : "description hidden"
+                  }
                 >
                   <div className="des-content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

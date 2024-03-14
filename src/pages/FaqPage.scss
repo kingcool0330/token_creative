@@ -87,9 +87,12 @@
           }
         }
 
+        .hiddenbefore {
+          animation: accordion-up 0.2s ease-out;
+        }
+
         .hidden {
           display: none;
-          animation: accordion-up 0.2s ease-out;
         }
       }
     }

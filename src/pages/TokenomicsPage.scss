@@ -1,0 +1,97 @@
+.tokenomics-section {
+  .sub-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 120px;
+
+    .title-section {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 2rem;
+
+      h1 {
+        font-weight: inherit;
+        text-align: center;
+        line-height: 1;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+      }
+
+      p {
+        color: rgb(200, 200, 200);
+        margin-top: 2rem;
+      }
+
+      .flex {
+        display: flex;
+        margin-top: 1.5rem;
+        width: 100%;
+
+        .text {
+          font-size: inherit;
+          font-weight: inherit;
+          color: rgb(255, 98, 67);
+        }
+
+        .line {
+          margin-left: 0.5rem;
+          margin-top: 0.5rem;
+          width: 50%;
+          border-top-style: solid;
+          border-top-width: 2px;
+          border-color: rgb(255, 98, 67);
+        }
+      }
+    }
+
+    .content {
+      margin-top: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      .item {
+        width: 50%;
+        padding: 2rem 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .image {
+          width: 40%;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .description {
+          width: 60%;
+          padding: 0 2rem;
+
+          h3 {
+            font-weight: 900;
+            font-size: 1.25rem;
+            line-height: 2rem;
+            text-transform: uppercase;
+          }
+
+          p {
+            line-height: 2rem;
+            color: rgb(200, 200, 200);
+          }
+        }
+      }
+    }
+  }
+}

@@ -4,10 +4,11 @@ import React, { useState, useEffect } from "react";
 import Header from "./pages/Header";
 import IntroPage from "./pages/IntroPage";
 import AboutPage from "./pages/AboutPage";
+import GeneratePage from "./pages/GeneratePage";
 import DetailFirstPage from "./pages/DetailFirstPage";
 import DetailSecondPage from "./pages/DetailSecondPage";
 import DetailThirdPage from "./pages/DetailThirdPage";
-import GeneratePage from "./pages/GeneratePage";
+import TokenomicsPage from "./pages/TokenomicsPage";
 import FaqPage from "./pages/FaqPage";
 import Footer from "./pages/Footer";
 import LoadingPage from "./pages/LoadingPage";
@@ -38,6 +39,7 @@ const App = () => {
         <DetailFirstPage />
         <DetailSecondPage />
         <DetailThirdPage />
+        <TokenomicsPage />
         <FaqPage />
         <Footer />
       </div>
