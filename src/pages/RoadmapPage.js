@@ -22,6 +22,7 @@ const RoadmapPage = () => {
                 position={key % 2 === 0 ? "right" : "left"}
                 fill={key < tempList.length / 2 ? true : false}
                 key={key}
+                item={item}
               />
             );
           })}

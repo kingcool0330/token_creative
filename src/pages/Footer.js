@@ -5,7 +5,7 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="container footer">
       <div className="section">
         <div className="sub-section">
           <div className="first">

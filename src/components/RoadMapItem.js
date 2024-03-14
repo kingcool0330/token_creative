@@ -7,33 +7,49 @@ import "./RoadMapItem.scss";
 
 const RoadMapItem = ({ position, fill }) => {
   return (
-    <div className="roadmapitem-section">
-      <div className="item">
-        {position === "left" && (
-          <div className={"description " + position}>
+    <>
+      <div className="roadmapitem-section">
+        <div className="item">
+          {position === "left" && (
+            <div className={"description " + position}>
+              <h2 className="title">Lorem</h2>
+              <p className="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          )}
+        </div>
+        <div className={fill ? "mark" : "mark nobackground"}>
+          {fill && <FontAwesomeIcon icon={faCheck} />}
+        </div>
+        <div className="item">
+          {position === "right" && (
+            <div className={"description " + position}>
+              <h2 className="title">Lorem</h2>
+              <p className="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="roadmapitem-mobile-section">
+        <div className={fill ? "mark" : "mark nobackground"}>
+          {fill && <FontAwesomeIcon icon={faCheck} />}
+        </div>
+        <div className="item">
+          <div className="description right">
             <h2 className="title">Lorem</h2>
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-        )}
+        </div>
       </div>
-      <div className={fill ? "mark" : "mark nobackground"}>
-        {fill && <FontAwesomeIcon icon={faCheck} />}
-      </div>
-      <div className="item">
-        {position === "right" && (
-          <div className={"description " + position}>
-            <h2 className="title">Lorem</h2>
-            <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        )}
-      </div>
-    </div>
+    </>
   );
 };
 

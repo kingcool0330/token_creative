@@ -23,6 +23,11 @@
         line-height: 1;
         font-size: 3rem;
         color: rgb(255 255 255/1);
+
+        @media (max-width: 768px) {
+          font-size: 2rem;
+          margin-bottom: 2rem;
+        }
       }
     }
 

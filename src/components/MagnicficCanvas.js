@@ -10,6 +10,7 @@ const createParticle = (x, y) => {
       x: (Math.random() - 0.5) * 2,
       y: (Math.random() - 0.5) * 2,
     },
+
     draw(ctx) {
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
@@ -17,6 +18,7 @@ const createParticle = (x, y) => {
       ctx.fill();
       ctx.closePath();
     },
+
     update(ctx, canvasWidth, canvasHeight) {
       this.x += this.velocity.x;
       this.y += this.velocity.y;
@@ -80,7 +82,7 @@ const MagnicficCanvas = () => {
 
     const init = () => {
       particles = [];
-      for (let i = 0; i < 100; i++) {
+      for (let i = 0; i < 50; i++) {
         let x = Math.random() * canvas.width;
         let y = Math.random() * canvas.height;
         particles.push(createParticle(x, y));

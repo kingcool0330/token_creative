@@ -2,6 +2,10 @@
   margin-top: 128px;
   background-color: transparent;
 
+  @media (max-width: 768px) {
+    margin-top: 60px;
+  }
+
   .sub-section {
     background-color: transparent;
     position: relative;
@@ -12,9 +16,22 @@
     flex-direction: row;
     align-items: flex-start;
 
+    @media (max-width: 1194px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     .fade-right {
       width: 40%;
       background-color: transparent;
+
+      @media (max-width: 1194px) {
+        width: 60%;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
 
       .logo {
         width: 200px;
@@ -24,6 +41,12 @@
         object-fit: cover;
         max-width: 100%;
         vertical-align: middle;
+
+        @media (max-width: 768px) {
+          width: 130px;
+          height: 35px;
+          object-fit: unset;
+        }
       }
 
       .title {
@@ -38,6 +61,10 @@
         line-height: 1;
         margin-top: 1.5rem;
         background-color: transparent;
+
+        @media (max-width: 768px) {
+          font-size: 2rem;
+        }
       }
 
       .flex {
@@ -70,6 +97,10 @@
         margin-top: 1.5rem;
         background-color: transparent;
 
+        @media (max-width: 512px) {
+          flex-direction: column;
+        }
+
         .product-item {
           display: flex;
           width: 100%;
@@ -79,6 +110,10 @@
           gap: 0.5rem;
           text-align: center;
           background-color: transparent;
+
+          @media (max-width: 512px) {
+            margin-bottom: 1rem;
+          }
 
           .product-img {
             width: 72px;
@@ -92,6 +127,10 @@
             color: rgb(255 255 255/1);
             width: 50%;
             background-color: transparent;
+
+            @media (max-width: 512px) {
+              width: 100%;
+            }
           }
         }
       }
@@ -105,6 +144,16 @@
       justify-content: flex-start;
       margin: 0 0 0 80px;
 
+      @media (max-width: 1194px) {
+        width: 60%;
+        margin: 80px 0 0 0px;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        margin: 50px 0 0 0px;
+      }
+
       .content {
         font-weight: 300;
         line-height: 1.625;
@@ -113,6 +162,14 @@
         width: 653px;
         font-size: 20px;
         background-color: transparent;
+
+        @media (max-width: 1194px) {
+          width: 100%;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 14px;
+        }
       }
     }
   }

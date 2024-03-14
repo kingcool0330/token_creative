@@ -31,6 +31,10 @@
       pointer-events: auto;
       transition: 1s all ease-in-out;
 
+      @media (max-width: 768px) {
+        gap: 1rem;
+      }
+
       .wallet-item {
         color: inherit;
         text-decoration: inherit;

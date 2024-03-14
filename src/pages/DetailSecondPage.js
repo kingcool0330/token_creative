@@ -8,7 +8,7 @@ const DetailFirstPage = () => {
   return (
     <div className="container detail-about-section">
       <div className="sub-section">
-        <div className="right" style={{ marginLeft: "0px" }}>
+        <div className="right ml-0 order-right">
           <div className="title">
             <h1>Lorem ipsum</h1>
             <p className="text">
@@ -35,7 +35,7 @@ const DetailFirstPage = () => {
             </button>
           </a>
         </div>
-        <div className="left" style={{ marginLeft: "80px" }}>
+        <div className="left ml-80 order-left">
           <video
             src={VideoUrl}
             className="video-tag"
