@@ -35,7 +35,7 @@ const TokenomicsPage = () => {
             </div>
             <div className="description">
               <h3>Supply</h3>
-              <p>1000 Trillion Moonstar Tokens.</p>
+              <p>1000 Trillion Celtex Tokens.</p>
             </div>
           </div>
           <div className="item">
