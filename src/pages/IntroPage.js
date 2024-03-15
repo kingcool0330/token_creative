@@ -22,7 +22,7 @@ const IntroPage = () => {
       </div>
       <div className="intro-text">
         <img className="logo-img" src={LogoImageUrl} alt="logo"></img>
-        <h2>Lorem ipsum dolor sit amet amet adipiscing elit</h2>
+        <h2>AIM FOR THE MOON, SHOOT FOR THE STARS</h2>
       </div>
     </div>
   );

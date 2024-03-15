@@ -80,7 +80,7 @@ const AboutPage = () => {
   return (
     <div className="container about-section">
       <div className="sub-section">
-        <p className="text">Lorem ipsum dolor sit amet</p>
+        <p className="text">Projects Integrated into the Celtex Ecosystem</p>
         <div className="wallet-list">
           {walletList?.map((item, key) => {
             return (

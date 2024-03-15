@@ -86,7 +86,8 @@ const FaqPage = () => {
                     className="btn"
                     onClick={() => handleFaqFlag(item)}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    What sets Celtex apart from other project deployment
+                    platforms?
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -111,10 +112,11 @@ const FaqPage = () => {
                   }
                 >
                   <div className="des-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    One unique feature of Celtex is its decentralized
+                    architecture, which allows users total control over their
+                    projects. Because of its decentralization, Celtex stands
+                    apart in the field of project deployment because of its
+                    increased security and autonomy
                   </div>
                 </div>
               </div>

@@ -20,7 +20,9 @@ const GeneratePage = () => {
             src={LogoUrl}
           />
           <h1 className="title">
-            Lorem ipsum <br /> Lorem ipsum dolor
+            PIONEERING THE
+            <br />
+            NEXT GENERATION
           </h1>
           <div className="flex">
             <h1 className="text">PRODUCTS</h1>
@@ -61,22 +63,22 @@ const GeneratePage = () => {
         </div>
         <div className="fade-left">
           <h1 className="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Celtex's decentralized architecture is built upon advanced cloud
+            network technology and it forms the foundation of a secure and
+            resilient computing environment.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Celtex Nodes, the backbone of this infrastructure, allow users to
+            deploy projects autonomously or collaboratively, fostering a diverse
+            and inclusive ecosystem.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Celtex's decentralized computing architecture is meticulously
+            crafted to redefine the landscape of distributed systems. Whether
+            you are hosting decentralized apps, deploying blockchain nodes, or
+            remotely accessing your servers, Celtex makes sure that your journey
+            is characterized by security, independence, and innovative
+            forward-thinking.
           </h1>
         </div>
       </div>

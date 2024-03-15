@@ -14,10 +14,8 @@ const TokenomicsPage = () => {
         <div className="title-section">
           <h1>Tokenomics</h1>
           <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Hard-coded into the Celtex contract are the following tokenomics, we
+            are unable to change them and are fully rug-proof!
           </p>
           <div className="flex">
             <h1 className="text">Key Features</h1>
@@ -37,10 +35,7 @@ const TokenomicsPage = () => {
             </div>
             <div className="description">
               <h3>Supply</h3>
-              <p>
-                Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet Lorem ipsum
-                dolor sit amet Lorem ipsum dolor sit amet
-              </p>
+              <p>1000 Trillion Moonstar Tokens.</p>
             </div>
           </div>
           <div className="item">
@@ -55,10 +50,7 @@ const TokenomicsPage = () => {
             </div>
             <div className="description">
               <h3>Burn</h3>
-              <p>
-                Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet Lorem ipsum
-                dolor sit amet Lorem ipsum dolor sit amet
-              </p>
+              <p>We have completed an initial burn of 4 Trillion tokens.</p>
             </div>
           </div>
           <div className="item">
@@ -74,8 +66,8 @@ const TokenomicsPage = () => {
             <div className="description">
               <h3>Taxes</h3>
               <p>
-                Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet Lorem ipsum
-                dolor sit amet Lorem ipsum dolor sit amet
+                10% tax on all transactions with a redistribution of 5% to all
+                holders and 5% towards liquidity.
               </p>
             </div>
           </div>
@@ -91,10 +83,7 @@ const TokenomicsPage = () => {
             </div>
             <div className="description">
               <h3>Team</h3>
-              <p>
-                Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet Lorem ipsum
-                dolor sit amet Lorem ipsum dolor sit amet
-              </p>
+              <p>3% allocated to development</p>
             </div>
           </div>
         </div>

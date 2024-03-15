@@ -20,18 +20,16 @@ const DetailFirstPage = () => {
         </div>
         <div className="right">
           <div className="title">
-            <h1>Lorem ipsum</h1>
+            <h1>Celtex Network</h1>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Connecting millions of people around the globe using advanced
+              cloud based products ranging from nodes, to validators, mining
+              opportunities and computational protocols.
               <br />
               <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Connecting millions of people around the globe using advanced
+              cloud based products ranging from nodes, to validators, mining
+              opportunities and computational protocols.
             </p>
           </div>
           <a

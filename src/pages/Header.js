@@ -8,37 +8,37 @@ import "./Header.scss";
 const RouteList = [
   {
     id: 1,
-    name: "Lorem",
+    name: "Home",
     key: "home",
   },
   {
     id: 2,
-    name: "Lorem",
+    name: "About",
     key: "about",
   },
   {
     id: 3,
-    name: "Lorem",
+    name: "Roadmap",
     key: "roadmap",
   },
   {
     id: 4,
-    name: "Lorem",
+    name: "Documentation",
     key: "documentation",
   },
   {
     id: 5,
-    name: "Lorem",
+    name: "Faq",
     key: "faq",
   },
   {
     id: 6,
-    name: "Lorem",
+    name: "Cloudverse",
     key: "cloudverse",
   },
   {
     id: 7,
-    name: "Lorem",
+    name: "Cloudsec",
     key: "cloudsec",
   },
 ];

@@ -12,10 +12,10 @@ const RoadMapItem = ({ position, fill }) => {
         <div className="item">
           {position === "left" && (
             <div className={"description " + position}>
-              <h2 className="title">Lorem</h2>
+              <h2 className="title">LAUNCH</h2>
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Fudders and people that came for a quick buck are starting to
+                leave out of boredom, wholesome community is building
               </p>
             </div>
           )}
@@ -26,10 +26,10 @@ const RoadMapItem = ({ position, fill }) => {
         <div className="item">
           {position === "right" && (
             <div className={"description " + position}>
-              <h2 className="title">Lorem</h2>
+              <h2 className="title">LAUNCH</h2>
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Fudders and people that came for a quick buck are starting to
+                leave out of boredom, wholesome community is building
               </p>
             </div>
           )}
