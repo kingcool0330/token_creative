@@ -28,7 +28,7 @@ const DetailFirstPage = () => {
               websites are securely hosted, and once deployed, even we can't
               take them down. Enjoy the ease and speed of setup, with hosting
               ready in less than 5 minutes. Join us in shaping a decentralized
-              future for web hosting with OneSec.
+              future for web hosting with Celtex.
             </p>
           </div>
           <a
