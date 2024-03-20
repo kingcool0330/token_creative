@@ -22,14 +22,10 @@ const DetailFirstPage = () => {
           <div className="title">
             <h1>Celtex Cloudverse</h1>
             <p className="text">
-              Connecting millions of people around the globe using advanced
-              cloud based products ranging from nodes, to validators, mining
-              opportunities and computational protocols.
-              <br />
-              <br />
-              Connecting millions of people around the globe using advanced
-              cloud based products ranging from nodes, to validators, mining
-              opportunities and computational protocols.
+              Configure your membership pass royalties and collect them on every
+              resale - be that on Opensea, LooksRare, or anywhere else. Enforced
+              by the smart contract, our Royalty Engine ensures that your sales
+              benefit your community and not the scalpers
             </p>
           </div>
           <a

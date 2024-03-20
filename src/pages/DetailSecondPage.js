@@ -12,14 +12,10 @@ const DetailFirstPage = () => {
           <div className="title">
             <h1>Cloudsec Router</h1>
             <p className="text">
-              Connecting millions of people around the globe using advanced
-              cloud based products ranging from nodes, to validators, mining
-              opportunities and computational protocols.
-              <br />
-              <br />
-              Connecting millions of people around the globe using advanced
-              cloud based products ranging from nodes, to validators, mining
-              opportunities and computational protocols.
+              Provide community members with a better way to connect: from
+              follow requests and social links, to shared collections,
+              interests, and NFT updates - and know more about your audience
+              than just their wallet address.
             </p>
           </div>
           <a

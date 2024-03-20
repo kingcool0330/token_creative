@@ -22,14 +22,13 @@ const DetailFirstPage = () => {
           <div className="title">
             <h1>Celtex Network</h1>
             <p className="text">
-              Connecting millions of people around the globe using advanced
-              cloud based products ranging from nodes, to validators, mining
-              opportunities and computational protocols.
-              <br />
-              <br />
-              Connecting millions of people around the globe using advanced
-              cloud based products ranging from nodes, to validators, mining
-              opportunities and computational protocols.
+              Revolutionizing web hosting with decentralization and freedom.
+              Experience the power of hosting what you want, free from
+              censorship or monitoring. Leveraging IPFS technology, your
+              websites are securely hosted, and once deployed, even we can't
+              take them down. Enjoy the ease and speed of setup, with hosting
+              ready in less than 5 minutes. Join us in shaping a decentralized
+              future for web hosting with OneSec.
             </p>
           </div>
           <a
